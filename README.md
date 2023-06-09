@@ -1,16 +1,24 @@
-### Hi there 👋
+```js
+import pause from 'pause'
 
-<!--
-**akizyfee/akizyfee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+test('Pause Skill', () => {
 
-Here are some ideas to get you started:
+  const frontEnd = ['JavaScript', 'TypeScript', 'Vue']
+  const layout = ['Tailwind CSS', 'Flowbite', 'Bootstrap']
+  const backEnd = ['NodeJS', 'Express']
+  const database = ['MongoDB']
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  expect(pause.frontEnd).toEqual(frontEnd)
+  expect(pause.layout).toEqual(layout)
+  expect(pause.backEnd).toEqual(backEnd)
+  expect(pause.database).toEqual(database)
+})
+
+Tests 1 passed (1)
+```
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akizyfee&theme=ocean_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=akizyfee&theme=ocean_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=akizyfee&theme=ocean_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=akizyfee&theme=ocean_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=akizyfee&theme=ocean_dark&utcOffset=8)
