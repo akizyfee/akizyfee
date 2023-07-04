@@ -9,7 +9,7 @@ import pause from 'pause'
 
 test('Pause Skill', () => {
 
-  const frontEnd = ['JavaScript', 'TypeScript', 'Vue']
+  const frontEnd = ['JavaScript', 'TypeScript', 'Vue', 'React', 'NextJS']
   const layout = ['Tailwind CSS', 'Flowbite', 'Bootstrap']
   const backEnd = ['NodeJS', 'Express']
   const database = ['MongoDB']
